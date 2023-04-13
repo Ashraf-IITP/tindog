@@ -1,0 +1,368 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+/* #FF597B
+#FF8E9E
+#F9B5D0
+#EEEEEE */
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2
+{
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.col-lg-4
+{
+    text-align: center;
+}
+
+.container-fluid
+{
+    padding: 3% 10%;
+}
+
+
+
+
+
+
+
+/* TITLE */
+
+#title
+{
+    background-color: #FF597B;
+    color: #EEEEEE;
+    padding-bottom: 0%;
+}
+
+#brand
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #EEEEEE;
+}
+
+#iphone_img
+{
+    transform: rotate(25deg);
+    margin-top: 5%;
+    margin-left: 10%;
+    position: relative;
+    width: 60%;
+    top: 0%;
+}
+
+.logo
+{
+    width: 25%;
+    margin-right: 7%;
+    margin-bottom: 10%;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.navbar
+{
+    padding: 0 0 4.5rem;
+}
+
+.navbar-nav
+{
+    margin-left: 40%;
+}
+
+.nav-item
+{
+    margin: auto 15%;
+}
+
+.nav-link
+{
+    color: #EEEEEE;
+}
+
+#pg1_content
+{
+    margin-left: 7%;
+    height: 600px;
+}
+
+#pg1_content h1
+{
+    font-size: 4rem;
+    line-height: 1.5;
+    width: 90%;
+    font-weight: bold;
+}
+
+
+
+
+
+
+/* FEATURES */
+
+#features
+{
+    margin: auto 15%;
+    margin-bottom: 10%;
+}
+
+.features_card
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.features_head
+{
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-top: 5%;
+}
+
+.feature_img
+{
+    color: #FF597B;
+}
+
+.feature_img:hover
+{
+    color: #ff365e;
+}
+
+.feature_p
+{
+    color: #8f8f8f;
+    margin: auto 10%;
+}
+
+#pg2
+{
+    background-color: white;
+    padding-top: 12%;
+    padding-bottom: 6%;
+    margin: 0;
+    position: relative;
+}
+
+
+
+
+
+
+/* TESTIMONIALS */
+
+#testimonials
+{
+    background-color: #FF8E9E;
+    color: #EEEEEE;
+    text-align: center;
+}
+
+.div_testimonials
+{
+    padding: 5% 20%;
+}
+
+.img_testimonial_1
+{
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 20%;
+    margin-bottom: 3%;
+}
+
+.img_testimonial_2
+{
+    border-radius: 100%;
+    width: 15%;
+    margin-top: 2%;
+    margin-right: 3%;
+    margin-left: 17%;
+    margin-bottom: 3%;
+}
+
+.indicator_css
+{
+    padding-top: 50%;
+}
+
+
+
+
+
+
+/* PRESS */
+
+#press
+{
+    background-color: #FF8E9E;
+    padding-bottom: 5%;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.logo_press
+{
+    width: 12%;
+    margin: auto 2%;
+}
+
+
+
+
+
+
+/* PRICING */
+
+#pricing
+{
+    margin: auto 15%;
+    margin-bottom: 10%;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.card_1_2
+{
+    margin-top: 10.5%;
+}
+
+.card-text
+{
+    color: #5b5b5b;
+    font-family: 'Ubuntu';
+}
+
+.h3_card
+{
+    background-color: #FF8E9E;
+    color: whitesmoke;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+
+.h5_prices
+{
+    font-weight: 700;
+    font-size: 2rem; 
+}
+
+.price_button
+{
+    background-color: #FF8E9E;
+    width: 90%;
+}
+
+.price_button:hover
+{
+    background-color: #FF597B;
+    color: white;
+}
+
+.pricing_card
+{
+    margin-top: 10%;
+}
+
+.pricing_card_row
+{
+    margin-left: 3%;
+}
+
+
+
+
+
+
+
+
+
+
+/* CALL TO ACTION */
+
+.cta_h3
+{
+    font-weight: 900;
+    color: whitesmoke;
+    font-size: 3rem;
+}
+
+#cta
+{
+    background-color: #FF8E9E;
+    padding: 7% 15%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.download_buttons
+{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+
+
+
+
+/* FOOTER */
+
+#footer
+{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.footer_logos
+{
+    margin: auto 1%;
+    margin-bottom: 2%;
+}
+
+.footer_logos:hover
+{
+    color: #FF8E9E;
+}
+
+.footer_p
+{
+    color: #8f8f8f;
+}
+
+
+
+@media (max-width: 1000px) 
+{
+    #iphone_img
+    {
+        position: static;
+        transform: rotate(0deg);
+        margin-top: 5%;
+        padding-left: 0;
+        margin-left: 0;
+        width: 40%;
+        padding-bottom: 7%;
+    }  
+    
+    #pg1_content
+    {
+        height: fit-content;
+        text-align: center;
+    }
+}
+
